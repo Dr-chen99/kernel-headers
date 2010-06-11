@@ -779,11 +779,12 @@ struct v4l2_control {
 
 struct v4l2_ext_control {
 	__u32 id;
-	__u32 reserved2[2];
+        __u32 size;
+	__u32 reserved2[1];
 	union {
 		__s32 value;
 		__s64 value64;
-		void *reserved;
+		char *string;
 	};
 } __attribute__ ((packed));
 
