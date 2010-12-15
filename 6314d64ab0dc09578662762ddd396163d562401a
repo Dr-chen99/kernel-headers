@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAA+n///0I\u003d",
+        "filename": "original/linux/input.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 352,
+      "author": {
+        "id": 1000411
+      },
+      "writtenOn": "2010-12-15T10:20:02Z",
+      "side": 1,
+      "message": "I\u0027m still concerned about the change in values for these KEY_ codes. Is there a rational for this? If so, it should definitely go into the commit message",
+      "revId": "6314d64ab0dc09578662762ddd396163d562401a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
