@@ -1,0 +1,8 @@
+Change-Id: I1afe8aa78922d51f9d13d81eae86b86b0c11a2f5
+Code-Review+2: David Turner <digit@android.com>
+Verified+1: Jean-Baptiste Queru <jbq@google.com>
+Submitted-by: Jean-Baptiste Queru <jbq@google.com>
+Submitted-at: Wed, 14 Jul 2010 11:01:46 -0700
+Reviewed-on: https://review.source.android.com/15796
+Project: platform/external/kernel-headers
+Branch: refs/heads/master
