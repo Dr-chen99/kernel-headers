@@ -8,6 +8,8 @@
 #define _K_SS_ALIGNSIZE	(__alignof__ (struct sockaddr *))
 				/* Implementation specific desired alignment */
 
+typedef unsigned short __kernel_sa_family_t;
+
 struct __kernel_sockaddr_storage {
 	unsigned short	ss_family;		/* address family */
 	/* Following field(s) are implementation specific */
@@ -185,10 +187,11 @@ struct ucred {
 #define AF_PPPOX	24	/* PPPoX sockets		*/
 #define AF_WANPIPE	25	/* Wanpipe API Sockets */
 #define AF_LLC		26	/* Linux LLC			*/
+#define AF_CAN		29	/* Controller Area Network      */
 #define AF_TIPC		30	/* TIPC sockets			*/
 #define AF_BLUETOOTH	31	/* Bluetooth sockets 		*/
 #define AF_CAIF		38	/* CAIF sockets			*/
-#define AF_MAX		39	/* For now.. */
+#define AF_MAX		40	/* For now.. */
 
 /* Protocol families, same as address families. */
 #define PF_UNSPEC	AF_UNSPEC
@@ -219,6 +222,7 @@ struct ucred {
 #define PF_PPPOX	AF_PPPOX
 #define PF_WANPIPE	AF_WANPIPE
 #define PF_LLC		AF_LLC
+#define PF_CAN		AF_CAN
 #define PF_TIPC		AF_TIPC
 #define PF_BLUETOOTH	AF_BLUETOOTH
 #define PF_CAIF		AF_CAIF
