@@ -1,0 +1,9 @@
+Change-Id: Ifaba91b5e1dd2c7f82600c0f5920a7d6679ae169
+Code-Review+2: Andrew Hsieh <andrewhsieh@google.com>
+Verified+1: Andrew Hsieh <andrewhsieh@google.com>
+Code-Review+1: Iceberg Fu <fu@mips.com>
+Submitted-by: Andrew Hsieh <andrewhsieh@google.com>
+Submitted-at: Tue, 24 Apr 2012 23:43:36 -0700
+Reviewed-on: https://android-review.googlesource.com/35760
+Project: platform/external/kernel-headers
+Branch: refs/heads/master
