@@ -1,6 +1,8 @@
 #ifndef _LINUX_UN_H
 #define _LINUX_UN_H
 
+#include <linux/socket.h>
+
 #define UNIX_PATH_MAX	108
 
 struct sockaddr_un {
