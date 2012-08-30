@@ -330,7 +330,7 @@
 #define __NR_timerfd		322
 #define __NR_eventfd		323
 #define __NR_fallocate		324
-#define __NR_perf_event_open    364
+#define __NR_perf_event_open    336
 
 #ifdef __KERNEL__
 
