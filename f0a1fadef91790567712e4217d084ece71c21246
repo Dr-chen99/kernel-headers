@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "24d0d387_2867cbc0",
+        "filename": "original/asm-generic/bitsperlong.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2013-10-01T00:10:21Z",
+      "side": 1,
+      "message": "(this FIXME is in the upstream Linux source, not something we added :-) )",
+      "revId": "f0a1fadef91790567712e4217d084ece71c21246",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
