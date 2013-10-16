@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "beaa1451_eb8e252f",
+        "filename": "original/uapi/README.TXT",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000234
+      },
+      "writtenOn": "2013-10-16T05:02:34Z",
+      "side": 1,
+      "message": "Thanks. Will get rid of it.",
+      "parentUuid": "9ea7108a_e79adc08",
+      "revId": "6727e9684bae82abf400d5191d2c01b457a35cac",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ea7108a_87a7684f",
         "filename": "original/uapi/README.TXT",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2013-10-16T02:59:30Z",
       "side": 1,
       "message": "aren\u0027t these files already in the google kernel tree?\n\n  linux/common$ find . -name posix_types.h\n  ./include/uapi/asm-generic/posix_types.h\n  ./include/uapi/linux/posix_types.h\n  ./arch/s390/include/uapi/asm/posix_types.h\n  ./arch/arm/include/uapi/asm/posix_types.h\n  ./arch/m32r/include/uapi/asm/posix_types.h\n  ./arch/ia64/include/uapi/asm/posix_types.h\n  ./arch/alpha/include/uapi/asm/posix_types.h\n  ./arch/avr32/include/uapi/asm/posix_types.h\n  ./arch/h8300/include/uapi/asm/posix_types.h\n  ./arch/x86/include/uapi/asm/posix_types.h\n  ./arch/x86/include/asm/posix_types.h\n  ./arch/powerpc/include/uapi/asm/posix_types.h\n  ./arch/m68k/include/uapi/asm/posix_types.h\n  ./arch/frv/include/uapi/asm/posix_types.h\n  ./arch/score/include/uapi/asm/posix_types.h\n  ./arch/blackfin/include/uapi/asm/posix_types.h\n  ./arch/sparc/include/uapi/asm/posix_types.h\n  ./arch/parisc/include/uapi/asm/posix_types.h\n  ./arch/cris/include/uapi/asm/posix_types.h\n  ./arch/microblaze/include/uapi/asm/posix_types.h\n  ./arch/mn10300/include/uapi/asm/posix_types.h\n  ./arch/mips/include/uapi/asm/posix_types.h\n  ./arch/xtensa/include/uapi/asm/posix_types.h\n  ./arch/sh/include/uapi/asm/posix_types.h\n  ./arch/sh/include/asm/posix_types.h",
+      "revId": "6727e9684bae82abf400d5191d2c01b457a35cac",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ea7108a_aafa6be9",
+        "filename": "original/uapi/README.TXT",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000234
+      },
+      "writtenOn": "2013-10-16T05:02:34Z",
+      "side": 1,
+      "message": "For arm64 posix_types.h is generated (maybe something is changed in 3.11):\n\nlinux-3.11.4-installed\u003e find . -name posix_types.h\n./usr/include/asm/posix_types.h\n./usr/include/asm-generic/posix_types.h\n./usr/include/linux/posix_types.h\n./arch/arm64/include/generated/asm/posix_types.h\n./arch/sparc/include/uapi/asm/posix_types.h\n./arch/parisc/include/uapi/asm/posix_types.h\n./arch/avr32/include/uapi/asm/posix_types.h\n./arch/s390/include/uapi/asm/posix_types.h\n./arch/cris/include/uapi/asm/posix_types.h\n./arch/frv/include/uapi/asm/posix_types.h\n./arch/x86/include/asm/posix_types.h\n./arch/x86/include/uapi/asm/posix_types.h\n./arch/mips/include/uapi/asm/posix_types.h\n./arch/arm/include/uapi/asm/posix_types.h\n./arch/microblaze/include/uapi/asm/posix_types.h\n./arch/xtensa/include/uapi/asm/posix_types.h\n./arch/blackfin/include/uapi/asm/posix_types.h\n./arch/m32r/include/uapi/asm/posix_types.h\n./arch/score/include/uapi/asm/posix_types.h\n./arch/m68k/include/uapi/asm/posix_types.h\n./arch/sh/include/asm/posix_types.h\n./arch/sh/include/uapi/asm/posix_types.h\n./arch/mn10300/include/uapi/asm/posix_types.h\n./arch/ia64/include/uapi/asm/posix_types.h\n./arch/alpha/include/uapi/asm/posix_types.h\n./arch/powerpc/include/uapi/asm/posix_types.h\n./arch/h8300/include/uapi/asm/posix_types.h\n\n\nThe generated \"asm/header.h\" only contains \"#include \u003casm-generic/header.h\u003e\", and the following files are generated for arm64:\n\n./arch/arm64/include/generated/asm/bug.h\n./arch/arm64/include/generated/asm/bugs.h\n./arch/arm64/include/generated/asm/checksum.h\n./arch/arm64/include/generated/asm/clkdev.h\n./arch/arm64/include/generated/asm/cputime.h\n./arch/arm64/include/generated/asm/current.h\n./arch/arm64/include/generated/asm/delay.h\n./arch/arm64/include/generated/asm/div64.h\n./arch/arm64/include/generated/asm/dma.h\n./arch/arm64/include/generated/asm/emergency-restart.h\n./arch/arm64/include/generated/asm/errno.h\n./arch/arm64/include/generated/asm/ftrace.h\n./arch/arm64/include/generated/asm/hw_irq.h\n./arch/arm64/include/generated/asm/ioctl.h\n./arch/arm64/include/generated/asm/ioctls.h\n./arch/arm64/include/generated/asm/ipcbuf.h\n./arch/arm64/include/generated/asm/irq_regs.h\n./arch/arm64/include/generated/asm/kdebug.h\n./arch/arm64/include/generated/asm/kmap_types.h\n./arch/arm64/include/generated/asm/kvm_para.h\n./arch/arm64/include/generated/asm/local64.h\n./arch/arm64/include/generated/asm/local.h\n./arch/arm64/include/generated/asm/mman.h\n./arch/arm64/include/generated/asm/msgbuf.h\n./arch/arm64/include/generated/asm/mutex.h\n./arch/arm64/include/generated/asm/pci.h\n./arch/arm64/include/generated/asm/percpu.h\n./arch/arm64/include/generated/asm/poll.h\n./arch/arm64/include/generated/asm/posix_types.h\n./arch/arm64/include/generated/asm/resource.h\n./arch/arm64/include/generated/asm/scatterlist.h\n./arch/arm64/include/generated/asm/sections.h\n./arch/arm64/include/generated/asm/segment.h\n./arch/arm64/include/generated/asm/sembuf.h\n./arch/arm64/include/generated/asm/serial.h\n./arch/arm64/include/generated/asm/shmbuf.h\n./arch/arm64/include/generated/asm/sizes.h\n./arch/arm64/include/generated/asm/socket.h\n./arch/arm64/include/generated/asm/sockios.h\n./arch/arm64/include/generated/asm/swab.h\n./arch/arm64/include/generated/asm/switch_to.h\n./arch/arm64/include/generated/asm/termbits.h\n./arch/arm64/include/generated/asm/termios.h\n./arch/arm64/include/generated/asm/topology.h\n./arch/arm64/include/generated/asm/trace_clock.h\n./arch/arm64/include/generated/asm/types.h\n./arch/arm64/include/generated/asm/unaligned.h\n./arch/arm64/include/generated/asm/user.h\n./arch/arm64/include/generated/asm/vga.h\n./arch/arm64/include/generated/asm/xor.h",
+      "parentUuid": "9ea7108a_87a7684f",
       "revId": "6727e9684bae82abf400d5191d2c01b457a35cac",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
