@@ -15,7 +15,7 @@
 #define __SYSCALL(x, y)
 #endif
 
-#if __BITS_PER_LONG == 32 || defined(__SYSCALL_COMPAT)
+#if (__BITS_PER_LONG == 32) || defined(__SYSCALL_COMPAT)
 #define __SC_3264(_nr, _32, _64) __SYSCALL(_nr, _32)
 #else
 #define __SC_3264(_nr, _32, _64) __SYSCALL(_nr, _64)
@@ -869,7 +869,7 @@ __SYSCALL(__NR_fork, sys_ni_syscall)
  * Here we map the numbers so that both versions
  * use the same syscall table layout.
  */
-#if __BITS_PER_LONG == 64 && !defined(__SYSCALL_COMPAT)
+#if (__BITS_PER_LONG == 64) && !defined(__SYSCALL_COMPAT)
 #define __NR_fcntl __NR3264_fcntl
 #define __NR_statfs __NR3264_statfs
 #define __NR_fstatfs __NR3264_fstatfs
