@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "de65092b_54996c64",
+        "filename": "original/uapi/linux/android_alarm.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2013-11-07T01:19:58Z",
+      "side": 1,
+      "message": "can\u0027t we put these non-upstream ones in a separate directory tree?",
+      "revId": "5218d7925f4d76b0aa95dd350d29804cc8a0f607",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "de65092b_1486d4fd",
+        "filename": "original/uapi/linux/err.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2013-11-07T01:19:58Z",
+      "side": 1,
+      "message": "this is actually all we want from here. i\u0027d rather fix the stub generator than drag in a bogus header file.",
+      "revId": "5218d7925f4d76b0aa95dd350d29804cc8a0f607",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "de65092b_748bc805",
+        "filename": "original/uapi/linux/ext2_fs.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2013-11-07T01:19:58Z",
+      "side": 1,
+      "message": "do we actually need this? pathconf doesn\u0027t. let me upload a pathconf patch for you...",
+      "revId": "5218d7925f4d76b0aa95dd350d29804cc8a0f607",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
