@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7988c4e2_ea807beb",
+        "filename": "original/uapi/asm-generic/fcntl.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2014-07-10T19:26:43Z",
+      "side": 1,
+      "message": "interesting. i saw this in a man page the other day. it\u0027ll be nice when we actually have that.",
+      "revId": "e084501669a4e4931c9d648351ecd7d595b81b79",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7988c4e2_8a79af49",
+        "filename": "original/uapi/linux/elf-em.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2014-07-10T19:26:43Z",
+      "side": 1,
+      "message": "yay! two more lines we can remove from our \u003celf.h\u003e.",
+      "revId": "e084501669a4e4931c9d648351ecd7d595b81b79",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
