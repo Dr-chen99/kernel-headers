@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "734e2558_4b56998e",
+        "filename": "original/uapi/asm-arm/asm/unistd.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 413,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2014-09-03T01:28:42Z",
+      "side": 1,
+      "message": "yay! :-)",
+      "revId": "fbed287ec073a4910ca62fe4e0df5ed993de78ac",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b31c1d53_37e460b2",
+        "filename": "original/uapi/asm-arm64/asm/perf_regs.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2014-09-03T01:28:42Z",
+      "side": 1,
+      "message": "one less patch for perf...",
+      "revId": "fbed287ec073a4910ca62fe4e0df5ed993de78ac",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b31c1d53_373d4046",
+        "filename": "original/uapi/asm-mips/asm/ptrace.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2014-09-03T01:28:42Z",
+      "side": 1,
+      "message": "oh, good. we can fix the debuggerd hack.",
+      "revId": "fbed287ec073a4910ca62fe4e0df5ed993de78ac",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b31c1d53_b79bf021",
+        "filename": "original/uapi/asm-mips/asm/unistd.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 375,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2014-09-03T01:28:42Z",
+      "side": 1,
+      "message": "wait? no getrandom? bastards!",
+      "revId": "fbed287ec073a4910ca62fe4e0df5ed993de78ac",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b395fdbe_89e978cd",
+        "filename": "original/uapi/linux/binder.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2014-09-03T01:28:42Z",
+      "side": 1,
+      "message": "luckily this file is all just whitespace changes!",
+      "revId": "fbed287ec073a4910ca62fe4e0df5ed993de78ac",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "532cc17a_88032c2d",
+        "filename": "original/uapi/linux/hyperv.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2014-09-03T01:28:42Z",
+      "side": 1,
+      "message": "huh.",
+      "revId": "fbed287ec073a4910ca62fe4e0df5ed993de78ac",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
