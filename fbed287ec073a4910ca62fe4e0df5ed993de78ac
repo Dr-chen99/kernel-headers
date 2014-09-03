@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "532cc17a_684ef850",
+        "filename": "original/uapi/asm-arm/asm/unistd.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 413,
+      "author": {
+        "id": 1019050
+      },
+      "writtenOn": "2014-09-03T01:35:14Z",
+      "side": 1,
+      "message": "Unfortunately, I originally grabbed the 3.17 headers. The 3.16.1 headers don\u0027t include getrandom.",
+      "parentUuid": "734e2558_4b56998e",
+      "revId": "fbed287ec073a4910ca62fe4e0df5ed993de78ac",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b31c1d53_37e460b2",
         "filename": "original/uapi/asm-arm64/asm/perf_regs.h",
         "patchSetId": 1
@@ -98,6 +116,24 @@
       "writtenOn": "2014-09-03T01:28:42Z",
       "side": 1,
       "message": "huh.",
+      "revId": "fbed287ec073a4910ca62fe4e0df5ed993de78ac",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b31c1d53_526acab8",
+        "filename": "original/uapi/linux/hyperv.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1019050
+      },
+      "writtenOn": "2014-09-03T01:35:14Z",
+      "side": 1,
+      "message": "Don\u0027t ask me, the original code was submitted by linux foundation folks.",
+      "parentUuid": "532cc17a_88032c2d",
       "revId": "fbed287ec073a4910ca62fe4e0df5ed993de78ac",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
