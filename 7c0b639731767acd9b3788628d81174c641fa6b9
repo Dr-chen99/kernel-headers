@@ -16,6 +16,24 @@
       "revId": "7c0b639731767acd9b3788628d81174c641fa6b9",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ab2cab7b_286deb6e",
+        "filename": "original/uapi/asm-mips/asm/ptrace.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1019050
+      },
+      "writtenOn": "2015-01-26T20:22:27Z",
+      "side": 1,
+      "message": "Yep, we can remove the pt_regs_mips_t structure in system/core/debuggerd/mips/machine.cpp. I\u0027ll do this after I submit the other changes since this is a system/core change and I already have a change pending.",
+      "parentUuid": "0b44d739_2e67a7c1",
+      "revId": "7c0b639731767acd9b3788628d81174c641fa6b9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
