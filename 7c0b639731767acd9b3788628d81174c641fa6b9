@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0b44d739_2e67a7c1",
+        "filename": "original/uapi/asm-mips/asm/ptrace.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2015-01-26T20:11:14Z",
+      "side": 1,
+      "message": "i think this means we can lose a hack in debuggerd? i know we have a hack relating to this bug _somewhere_.",
+      "revId": "7c0b639731767acd9b3788628d81174c641fa6b9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
