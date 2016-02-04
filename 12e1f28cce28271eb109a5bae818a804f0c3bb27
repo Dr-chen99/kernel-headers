@@ -1,0 +1,123 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f127a8f2_b486ed3e",
+        "filename": "original/uapi/linux/in.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2016-02-04T21:52:44Z",
+      "side": 1,
+      "message": "this might cause trouble?",
+      "revId": "12e1f28cce28271eb109a5bae818a804f0c3bb27",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "31fce07c_c24c8bc9",
+        "filename": "original/uapi/linux/in.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2016-02-04T21:52:44Z",
+      "side": 1,
+      "message": "and this.",
+      "revId": "12e1f28cce28271eb109a5bae818a804f0c3bb27",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "31c3005d_fe430e45",
+        "filename": "original/uapi/linux/in.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2016-02-04T21:52:44Z",
+      "side": 1,
+      "message": "this one\u0027s actually awesome, though, because it lets us fix https://code.google.com/p/android/issues/detail?id\u003d64374 :-)\n\n(but initially we probably just want to turn this on to leave things as they are.)",
+      "revId": "12e1f28cce28271eb109a5bae818a804f0c3bb27",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d1c4647f_dc6721cb",
+        "filename": "original/uapi/linux/input-event-codes.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2016-02-04T21:52:44Z",
+      "side": 1,
+      "message": "hmm. iirc, there\u0027s a script in toolbox that parses these from where they used to be.",
+      "revId": "12e1f28cce28271eb109a5bae818a804f0c3bb27",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d1c4647f_3c385da3",
+        "filename": "original/uapi/linux/libc-compat.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2016-02-04T21:52:44Z",
+      "side": 1,
+      "message": "oh. that\u0027s annoying. so to actually use this, we\u0027d have to define __GLIBC__?",
+      "revId": "12e1f28cce28271eb109a5bae818a804f0c3bb27",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "31c3005d_9e2e9a7c",
+        "filename": "original/uapi/linux/libc-compat.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2016-02-04T21:52:44Z",
+      "side": 1,
+      "message": "...and deal with this gnarl?",
+      "revId": "12e1f28cce28271eb109a5bae818a804f0c3bb27",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d1c4647f_3c83bd79",
+        "filename": "original/uapi/linux/perf_event.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 269,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2016-02-04T21:52:44Z",
+      "side": 1,
+      "message": "yabinc: does this affect simpleperf?",
+      "revId": "12e1f28cce28271eb109a5bae818a804f0c3bb27",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
