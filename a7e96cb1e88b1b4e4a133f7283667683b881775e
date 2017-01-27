@@ -16,6 +16,23 @@
       "revId": "a7e96cb1e88b1b4e4a133f7283667683b881775e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ed4b663a_a342d601",
+        "filename": "original/uapi/asm-arm64/asm/ptrace.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1019050
+      },
+      "writtenOn": "2017-01-27T20:49:38Z",
+      "side": 1,
+      "message": "I\u0027ll take of that, but not in these two cls just in case it causes a problem.",
+      "revId": "a7e96cb1e88b1b4e4a133f7283667683b881775e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
