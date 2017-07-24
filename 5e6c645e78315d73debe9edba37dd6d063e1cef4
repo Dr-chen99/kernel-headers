@@ -22,6 +22,30 @@
       "revId": "5e6c645e78315d73debe9edba37dd6d063e1cef4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "65a80d25_0a60e163",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2017-07-24T17:23:41Z",
+      "side": 1,
+      "message": "i assumed you wrote this; i didn\u0027t actually change any of the words :-)\n\ndone.",
+      "parentUuid": "989f4227_c04d196e",
+      "range": {
+        "startLine": 20,
+        "startChar": 28,
+        "endLine": 20,
+        "endChar": 52
+      },
+      "revId": "5e6c645e78315d73debe9edba37dd6d063e1cef4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
