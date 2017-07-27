@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d80e02a7_a34c1cc6",
+        "filename": "original/uapi/linux/if.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2017-07-27T22:03:12Z",
+      "side": 1,
+      "message": "nice: this removes the need for one of fornwall\u0027s ndk patches.",
+      "revId": "0543f743b6f5bc5c0652568c763e6dfb9ddce647",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
