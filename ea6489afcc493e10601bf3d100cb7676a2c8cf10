@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "98467b1f_89faa5eb",
+        "filename": "original/uapi/linux/prctl.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 238,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2019-12-13T00:46:45Z",
+      "side": 1,
+      "message": "interesting. i don\u0027t think i even knew this was going to happen.",
+      "revId": "ea6489afcc493e10601bf3d100cb7676a2c8cf10",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
