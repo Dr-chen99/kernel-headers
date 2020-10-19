@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "14bc9a05_995e5195",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1019050
+      },
+      "writtenOn": "2020-10-19T21:59:17Z",
+      "side": 1,
+      "message": "I haven\u0027t put up the other parts because TOT of aosp doesn\u0027t boot on my flame. It boots back to the recovery image.",
+      "revId": "9cf67833060a45a2519c0f4d57ae70de970a4dd9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
