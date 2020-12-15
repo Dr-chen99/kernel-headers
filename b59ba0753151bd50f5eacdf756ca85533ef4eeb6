@@ -20,6 +20,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "167f731c_405261eb",
+        "filename": "original/uapi/asm-arm64/asm/hwcap.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1067098
+      },
+      "writtenOn": "2020-12-15T17:59:47Z",
+      "side": 1,
+      "message": "Yes, since MTE landed in 5.10 we should be able to get rid of ANDROID_EXPERIMENTAL_MTE once this change lands.",
+      "parentUuid": "15262319_205c7cd5",
+      "revId": "b59ba0753151bd50f5eacdf756ca85533ef4eeb6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "a3c69054_954c7811",
         "filename": "original/uapi/asm-arm64/asm/mman.h",
         "patchSetId": 1
