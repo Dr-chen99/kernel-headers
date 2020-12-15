@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "15262319_205c7cd5",
+        "filename": "original/uapi/asm-arm64/asm/hwcap.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2020-12-15T16:56:34Z",
+      "side": 1,
+      "message": "+pcc :-)",
+      "revId": "b59ba0753151bd50f5eacdf756ca85533ef4eeb6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a3c69054_954c7811",
+        "filename": "original/uapi/asm-arm64/asm/mman.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2020-12-15T16:56:34Z",
+      "side": 1,
+      "message": "there\u0027s a theme here... (i\u0027ll stop now!)",
+      "revId": "b59ba0753151bd50f5eacdf756ca85533ef4eeb6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
