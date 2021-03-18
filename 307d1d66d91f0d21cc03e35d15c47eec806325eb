@@ -16,6 +16,23 @@
       "message": "Be consistent with binder.h file in kernel driver.",
       "revId": "307d1d66d91f0d21cc03e35d15c47eec806325eb",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f5e6b334_1d4c1e5e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1858445
+      },
+      "writtenOn": "2021-03-18T07:21:15Z",
+      "side": 1,
+      "message": "As this file will auto generate, so abandon this CL. Sorry for this.",
+      "revId": "307d1d66d91f0d21cc03e35d15c47eec806325eb",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
