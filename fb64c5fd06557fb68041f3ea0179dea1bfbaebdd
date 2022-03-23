@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2479b849_0bb18570",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2022-03-23T00:36:25Z",
+      "side": 1,
+      "message": "+timmurray in case he knows more about this and wants us to punch a seccomp hole for it (for modules, say, that might want to use this later but can\u0027t because we can\u0027t update the T seccomp filter in 2024 or whatever).",
+      "revId": "fb64c5fd06557fb68041f3ea0179dea1bfbaebdd",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "22368581_b80eaaba",
