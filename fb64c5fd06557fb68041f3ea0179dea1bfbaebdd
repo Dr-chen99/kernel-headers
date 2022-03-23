@@ -16,6 +16,24 @@
       "message": "huh. the internet isn\u0027t very forthcoming about this new syscall...",
       "revId": "fb64c5fd06557fb68041f3ea0179dea1bfbaebdd",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1934c8ea_486cb8d7",
+        "filename": "original/uapi/asm-arm/asm/unistd-eabi.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 406,
+      "author": {
+        "id": 1019050
+      },
+      "writtenOn": "2022-03-23T00:15:57Z",
+      "side": 1,
+      "message": "Yeah, I couldn\u0027t find much of anything. I found this:\n\nhttps://www.spinics.net/lists/linux-api/msg51475.html\n\nI kind of understand this, but I don\u0027t really think this is something you would want to really expose, but I\u0027m sure there is some performance reason to use this.",
+      "parentUuid": "22368581_b80eaaba",
+      "revId": "fb64c5fd06557fb68041f3ea0179dea1bfbaebdd",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
