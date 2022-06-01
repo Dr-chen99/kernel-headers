@@ -61,8 +61,6 @@ enum counter_event_type {
 	COUNTER_EVENT_THRESHOLD,
 	/* Index signal detected */
 	COUNTER_EVENT_INDEX,
-	/* State of counter is changed */
-	COUNTER_EVENT_CHANGE_OF_STATE,
 };
 
 /**

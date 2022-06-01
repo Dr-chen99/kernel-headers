@@ -84,14 +84,14 @@ struct drm_panfrost_wait_bo {
 	__s64 timeout_ns;	/* absolute */
 };
 
-/* Valid flags to pass to drm_panfrost_create_bo */
 #define PANFROST_BO_NOEXEC	1
 #define PANFROST_BO_HEAP	2
 
 /**
  * struct drm_panfrost_create_bo - ioctl argument for creating Panfrost BOs.
  *
- * The flags argument is a bit mask of PANFROST_BO_* flags.
+ * There are currently no values for the flags argument, but it may be
+ * used in a future extension.
  */
 struct drm_panfrost_create_bo {
 	__u32 size;
