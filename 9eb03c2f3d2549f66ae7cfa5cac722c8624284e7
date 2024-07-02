@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cdb6d6d8_9e424950",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1019050
+      },
+      "writtenOn": "2024-07-02T00:17:23Z",
+      "side": 1,
+      "message": "As mentioned elsewhere, you need to do this upstream and then it will come into bionic on the next kernel that includes the change.",
+      "revId": "9eb03c2f3d2549f66ae7cfa5cac722c8624284e7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
